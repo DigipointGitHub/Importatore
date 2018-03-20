@@ -1,0 +1,116 @@
+<DelimitedClass Delimiter="|">
+  <ClassName>TrasfertaImport</ClassName>
+  <SealedClass />
+  <IgnoreEmptyLines />
+  <Fields>
+    <Field Name="CID " Type="String"><!--0-->
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="Nominativo" Type="String"><!--1-->
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="Stab" Type="String">
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="DescStabilimento" Type="String">
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Filed Name="Div" Type="String">
+      <TrimMode>Both</TrimMode>
+    </Filed>
+    <Field Name="Qualifica" Type="String">
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="Pa" Type="String">
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="LocSoggiorno" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="Sc" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="DescrizioneSchema" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="Motivo" Type="String"><!--10-->
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="DataIniz" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="DataFine" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="NrTrasf" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="SiRecaPresso" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="StatoAutorizzativo" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="StatoMissione" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="OggettoContabile" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="X" Type="String">
+      <FieldOptional />
+    </Field>
+    <Field Name="SedeDisagiata" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="PaeseARischio" Type="String"><!--20-->
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="DtInTr" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="HInTr" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="DtFnTr" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="HFnTr" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="Pae" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="CittaTr" Type="String">
+      <FieldOptional />
+      <TrimMode>Both</TrimMode>
+    </Field>
+    <Field Name="A" Type="String">
+      <FieldOptional />
+    </Field>
+    <Field Name="A2" Type="String">
+      <FieldOptional />
+    </Field>
+    <Field Name="A3" Type="String">
+      <FieldOptional />
+    </Field>
+  </Fields>
+</DelimitedClass>
